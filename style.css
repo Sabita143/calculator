@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'DynaPuff',cursive;
+    
+    /* background-image: url(https://media.istockphoto.com/photos/beautiful-peonies-frame-in-dark-colors-black-floral-background-picture-id1246158333?b=1&k=20&m=1246158333&s=170667a&w=0&h=OgDFQ3-5M4Xl2U7xstuqtTb8vUtjmtp6Ad6ib0I4rqI=);
+ */
+}
+.text-center{
+   text-align: center;
+}
+
+.bg-red{
+    border-radius: 20%;  
+    background-image: url(https://us.123rf.com/450wm/karandaev/karandaev1611/karandaev161100434/65841837-office-leather-desk-table-with-calculator-and-pen-top-view-with-copy-space.jpg?ver=6);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.m-w-20{
+    max-width: 40vw;
+}
+
+.button{
+    font-size: larger;
+    font-weight: bolder;
+    padding: 20px;
+    width: 66px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 19px;
+    cursor: pointer;
+    box-shadow:5px 10px;
+}
+
+.button:hover{
+    background-color: aqua;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.row{
+    margin:8px 0;
+   
+}
+
+.row input{
+    
+    font-size: 15px;
+    margin: 5px;
+    padding: 11px 56px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.input{
+    box-shadow:5px 10px;
+    font-weight: bolder;
+}
+
